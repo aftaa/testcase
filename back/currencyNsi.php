@@ -27,6 +27,6 @@ foreach ($currencies as $currency) {
     ];
 }
 
-$outputJson = json_encode($outputJson);
+$outputJson = json_encode($outputJson, JSON_UNESCAPED_UNICODE);
 
 echo $outputJson;
