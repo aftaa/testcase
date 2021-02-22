@@ -17,7 +17,7 @@ $outputJson = (object)[
     ],
     'data'   => [
 
-    ]
+    ],
 ];
 
 foreach ($currencies as $currency) {
